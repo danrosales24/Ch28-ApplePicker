@@ -25,7 +25,7 @@ public class Basket : MonoBehaviour
 
     }
 
-    void onCollisionEnter(Collision coll)
+    void OnCollisionEnter( Collision coll )
     {
         GameObject collidedWith = coll.gameObject;
         if (collidedWith.tag == "Apple")
